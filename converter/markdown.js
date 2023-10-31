@@ -12,6 +12,7 @@ var markdown = {
   parse: function (str, strict) {
     'use strict';
     str = parseHeadline(str);
+    
     return str;
   }
 };
